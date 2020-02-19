@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-exports.parseIdentityToken = function(identityToken, appleTokens = {}) {
+module.exports = function parseIdentityToken(identityToken, appleTokens = {}) {
   try {
     if (dataIsValid(appleTokens) === true) {
       let key = appleTokens.authKey.toString();

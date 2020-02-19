@@ -8,7 +8,7 @@ $ npm i auth-with-apple
 
 ## Usage
 ```javascript
-const swp = require('auth-with-apple');
+const appleAuth = require('auth-with-apple');
 
 const key = fs.readFileSync("./AuthKey.p8").toString();
 const swpParams = {
@@ -18,7 +18,7 @@ const swpParams = {
 };
 
 // Apple identity token you can get by your application
-const appleData = swp(apple_itentity_token, swpParams);
+const appleData = appleAuth(apple_itentity_token, swpParams);
 ```
 
 ### Response example
