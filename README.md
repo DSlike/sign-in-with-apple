@@ -1,14 +1,14 @@
-# sign-in-with-apple
+# auth-with-apple
 NPM module for easy use "sign in with apple" using the NodeJS server.
 
 ## Install
 ```bash
-$ npm install sign-in-with-apple
+$ npm i auth-with-apple
 ```
 
 ## Usage
 ```javascript
-const swp = require('sign-in-with-apple');
+const swp = require('auth-with-apple');
 
 const key = fs.readFileSync("./AuthKey.p8").toString();
 const swpParams = {
