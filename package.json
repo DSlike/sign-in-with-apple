@@ -1,0 +1,29 @@
+{
+  "name": "sign-in-with-apple",
+  "version": "1.0.0",
+  "description": "NPM module for easy use \"sign in with apple\" using the NodeJS server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DSlike/sign-in-with-apple.git"
+  },
+  "keywords": [
+    "apple",
+    "sign in with apple",
+    "nodejs",
+    "npm",
+    "jwt"
+  ],
+  "author": "Daniel Votintsev (@D_Slike)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DSlike/sign-in-with-apple/issues"
+  },
+  "homepage": "https://github.com/DSlike/sign-in-with-apple#readme",
+  "dependencies": {
+    "jsonwebtoken": "8.5.1"
+  }
+}
